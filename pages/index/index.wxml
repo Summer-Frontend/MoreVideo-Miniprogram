@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+<image class="item" wx:for="{{playList}}" bindtap="onClickHandler" data-id="{{index}}" src="{{item.image}}"></image>
+<video class="item" hidden="{{hidden}}" autoplay style="position: absolute;top: 0;left:0;z-index: 1;transform:translate3d({{clientX}}px,{{clientY}}px,0)" poster="{{current.image}}"  object-fit="cover" src="{{current.video}}"></video>
+
+</view>
