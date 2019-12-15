@@ -5,21 +5,12 @@
   align-items: center;
 }
 .item{
-  width: 750rpx;
+  width: 80%;
   height: 500rpx;
+  position: relative;
+  object-fit: cover;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.play{
+  width: 96rpx;height: 96rpx;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;
+  z-index: 1;
 }
